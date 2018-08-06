@@ -1,0 +1,154 @@
+
+<link rel="stylesheet" href="css/bootstrap.css">
+
+	<style type="text/css">
+		@import "font-awesome.min.css";
+@import "font-awesome-ie7.min.css";
+/* Space out content a bit */
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+	</style>
+  <body>
+    <div class="container" style="background-color: #5bc0de;}">
+    <h1 class="well">Registration Form</h1>
+  <div class="col-lg-12 well">
+  <div class="row">
+        <form action="reg.php" method="POST">
+          <div class="col-sm-12">
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <label>Name</label>
+                <input type="text" placeholder="your name" class="form-control" name="fname">
+              </div>
+              <div class="col-sm-6 form-group">
+                <label>Father's name</label>
+                <input type="text" placeholder="father's name" class="form-control" name="lname">
+              </div>
+          
+                                       
+          
+                          
+            </div>          
+            <div class="form-group">
+              <label>Address</label>
+              <textarea placeholder="Enter Address Here.." rows="3" class="form-control" name="address"></textarea>
+            </div>  
+            <div class="row">
+              <div class="col-sm-4 form-group">
+                <label>Date Of Bitrh</label>
+                <input type="date" placeholder="" class="form-control" name="dob">
+              </div>  
+              <div class="col-sm-4 form-group">
+                <label>Contact no</label>
+                <input type="text" placeholder="" class="form-control" name="contact">
+              </div>  
+              <div class="col-sm-4 form-group">
+                <label>Parent no.</label>
+                <input type="text" placeholder="" class="form-control" name="parent">
+              </div>    
+            </div>
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <label>Email-id</label>
+                <input type="text" placeholder="Enter email-id Here.." class="form-control" name="email">
+              </div>    
+              <div class="col-sm-6 form-group">
+                <label>Stream</label>
+                <input type="text" placeholder="Enter your stream Here.." class="form-control" name="stream">
+              </div>  
+            </div>            
+          <div class="form-group">
+            <label>College</label>
+            <input type="text" placeholder="Enter College name Here.." class="form-control" name="College">
+          </div>    
+          <div class="form-group">
+            <label>Result</label>
+            <input type="text" placeholder="last sem Result(% or spi)" class="form-control" name="result">
+          </div>  
+          <div class="form-group">
+            <label>Aadhar no.</label>
+            <input type="text" placeholder="Enter your Aadhar card no Here.." class="form-control" name="aadhar">
+          </div>
+          <div class="form-group">
+                <label>Upload result / Certificate</label>
+                <input type="file" placeholder="Enter Last Name Here.." class="form-control">
+              </div>
+          
+          <input type="submit" class="btn btn-lg btn-info">       
+          </div>
+        </form> 
+        
+        </div>
+</body>
